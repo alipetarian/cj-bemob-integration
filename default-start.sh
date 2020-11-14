@@ -1,0 +1,23 @@
+export BEMOB_TRACKING_DOMAIN=ENTER_YOUR_TRACKING_DOMAIN
+echo "Bemob Tracking Domain: "
+printenv BEMOB_TRACKING_DOMAIN
+
+export CJ_PUBLISHER_ID=ENTER_CJ_PUBLISHER_ID
+
+echo "Publisher ID: "
+printenv CJ_PUBLISHER_ID
+
+export CJ_API_ENDPOINT=ENTER_CJ_API_ENDPOINT
+echo "CJ_API_ENDPOINT" 
+prentenv CJ_API_ENDPOINT
+
+export CJ_AUTH_TOKEN=ENTER_CJ_AUTH_TOKEN
+echo "CJ Auth Token: "
+printenv CJ_AUTH_TOKEN
+
+
+export CJ_WEBSITE_ID=ENTER_CJ_WEBSITE_ID
+echo "CJ Websites Ids: "
+printenv CJ_WEBSITE_ID
+
+yarn dev
