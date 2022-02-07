@@ -3,7 +3,7 @@ const axios = require('axios');
 const config = require('config');
 const { logger } = require('../../startup/logging');
 
-axios.defaults.baseURL = config.get('bemobTrackingDomain');
+axios.defaults.baseURL = config.get('voluumTrackingDomain');
 
 axios.interceptors.response.use(null, (error) => {
   const expectedError = error.response

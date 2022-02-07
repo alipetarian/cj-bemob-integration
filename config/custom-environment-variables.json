@@ -1,5 +1,5 @@
 {
-  "bemobTrackingDomain": "BEMOB_TRACKING_DOMAIN",
+  "voluumTrackingDomain": "VOLUUM_TRACKING_DOMAIN",
   "jwtPrivateKey": "JWT_PRIVATE_KEY",
   "cjPublisherId": "CJ_PUBLISHER_ID",
   "cjGraphqlApiEndpoint": "CJ_GRAPHQL_API_ENDPOINT",

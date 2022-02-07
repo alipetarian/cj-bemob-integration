@@ -65,7 +65,7 @@ module.exports.getCommissions = (startDate, endDate) => {
   return gql.post('/query', body);
 };
 
-module.exports.sendBemobPostback = (cid, payout) => {
+module.exports.sendVoluumPostback = (cid, payout) => {
   const params = {
     cid
   }

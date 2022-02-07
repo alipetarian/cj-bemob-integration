@@ -22,7 +22,7 @@ const logger = winston.createLogger({
 module.exports = function () {
   console.log('**** ENVIRONMENT VARIABLES ****');
   console.log('JWT PRIVATE KEY: ', config.get('jwtPrivateKey'));
-  console.log('BEMOB TRACKING DOMAIN: ', config.get('bemobTrackingDomain'));
+  console.log('BEMOB TRACKING DOMAIN: ', config.get('voluumTrackingDomain'));
   console.log('CJ PUBLISHER ID: ', config.get('cjPublisherId'));
   console.log('CJ GRAPHQL ENDPOINT: ', config.get('cjGraphqlApiEndpoint'));
   console.log('CJ GRAPHQL AUTH TOKEN: ', config.get('cjAuthToken'));
